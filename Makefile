@@ -7,7 +7,8 @@ CXXFLAGS = -Wall -Wextra -Wpedantic -g -O0 -Iinclude
 LDFLAGS = -lsfml-graphics -lsfml-window -lsfml-system
 
 SRC = src/main.cpp \
-      src/board.cpp
+      src/board.cpp \
+      src/game.cpp
 
 OBJ = $(SRC:.cpp=.o)
 

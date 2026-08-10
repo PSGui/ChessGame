@@ -233,3 +233,8 @@ void    Board::drawPieces(sf::RenderWindow &window)
                 }
         }
 }
+
+const Piece& Board::getPiece(int linha, int coluna) const
+{
+        return boardMap[linha][coluna];
+}

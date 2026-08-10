@@ -21,8 +21,8 @@ enum class PieceColor
 
 struct Piece
 {
-        PieceType type;
-        PieceColor color;
+        PieceType type = PieceType::Empty;
+        PieceColor color = PieceColor::None;
 };
 
 #endif

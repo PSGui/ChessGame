@@ -15,11 +15,13 @@ class Board
 
                 void    setupInitialPosition();
                 bool    loadTextures();
+
         
         public:
                 Board();
                 void    drawBoard(sf::RenderWindow &window);
                 void    drawPieces(sf::RenderWindow &window);
+                const Piece& getPiece(int linha, int coluna) const;
 };
 
 #endif
