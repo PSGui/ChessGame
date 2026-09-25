@@ -1,6 +1,6 @@
 # ChessGame
 
-Chess application in C++ using SFML. It renders the initial position on an 8 × 8 board and records piece selection through mouse clicks.
+Chess application in C++ using SFML
 
 ![Initial board displayed by ChessGame](docs/chess.png)
 
